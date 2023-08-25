@@ -1,0 +1,20 @@
+.special, .buy-together{
+  .line{
+    position: relative;
+    padding-left: 32px;
+    padding-right: 32px;
+    &:not(:last-child)::after{
+      content:"";
+      position: absolute;
+      display: block;
+      top: 50%;
+      right:0;
+      transform: translateY(-50%);
+
+      width: 1px;
+      height: 24px;
+      background-color: $black-400;
+      // margin-left: 64px;
+    }
+  }
+}

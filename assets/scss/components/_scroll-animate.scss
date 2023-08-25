@@ -1,0 +1,57 @@
+.scroll-animate {
+  overflow: hidden;
+  position: relative; 
+  width: 100%;
+  height: 0; 
+  padding-bottom: 70%; 
+}
+
+.scroll-animate img {
+  position: absolute; 
+  max-width: 100%;
+}
+
+.scroll-animate img:nth-child(1) {
+  top: 10%;
+  left: 20%;
+}
+.scroll-animate img:nth-child(2) {
+  top: 30%;
+  left: 70%;
+}
+.scroll-animate img:nth-child(3) {
+  top: 60%;
+  left: 30%;
+}
+.scroll-animate img:nth-child(4) {
+  top: 30%;
+  left: 0;
+}
+.scroll-animate img:nth-child(5) {
+  top: 0%;
+  left: 40%;
+}
+.scroll-animate img:nth-child(6) {
+  top: 70%;
+  right: 0;
+}
+.scroll-animate img:nth-child(7) {
+  top: 30%;
+  right: 27%;
+}
+.scroll-animate img:nth-child(8) {
+  top: 38%;
+  left: 20%;
+}
+.scroll-animate img:nth-child(9) {
+  top: 70%;
+  right: 35%;
+}
+.scroll-animate img:nth-child(10) {
+  top: 38%;
+  left: 45%;
+}
+.scroll-animate img:nth-child(11) {
+  top: 58%;
+  right: 33%;
+}
